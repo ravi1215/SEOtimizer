@@ -1,0 +1,175 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* Light blue-gray background */
+  color: #333;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    padding: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: inline-block;
+     /* Center the logo vertically */
+}
+
+.logo img {
+    width: 250px;
+    vertical-align: middle; /* Adjust logo width */
+}
+
+/* Navigation Styles */
+nav {
+    display: inline-block; 
+    margin-left: 450px;
+    margin-bottom: 01px;
+    margin-top: 1px; /* Move the navigation to the right */
+}
+
+nav ul {
+    
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Navigation link color */
+    position: relative;
+    transition: transform 0.2s;
+}
+
+nav ul li a:hover {
+    transform: translateY(-2px);
+    color:#2d4ee6; /* Change link color on hover */
+}
+
+/* Divider Line Styles */
+.section-divider {
+    border-top: 20px solid #b52424; /* Divider line color */
+}
+
+
+/* Hero Section Styles */
+.hero {
+    background: linear-gradient(to bottom, #007bff, #0056b3);; /* Gradient background for the hero */
+    color: #fff; /* Hero text color */
+    padding: 50px 0;
+    text-align: center;
+}
+.hero a.btn {
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2.5em; /* Adjust size as needed */
+    margin-bottom: 20px;
+  }
+
+/* Services Section Styles */
+.services {
+    display: flex;
+    justify-content: center;
+    background-color: #dfeef1; /* Service background color */
+    padding: 00px 0;
+}
+
+.service {
+    flex: 0 0 auto;
+    width: 30%;
+    text-align: center;
+    padding:20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+    transition: transform 0.3s;
+}
+
+.service:hover {
+    transform: translateY(-5px); /* Add hover effect */
+}
+
+/* Testimonials Section Styles */
+.testimonials-carousel {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding: 20px 0;*/
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial {
+    flex: 0 0 auto;
+    margin: 0 20px;
+    width: 100%;
+    text-align: center;
+    padding: 0 20px;
+    background-color: #fff; /* White background color for testimonials */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* About Us Section Styles */
+.team {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f3f4f5; /* About us background color */
+    padding: 50px 0;
+}
+
+.team-member {
+    text-align: center;
+    margin: 20px;
+}
+
+.team-member img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Contact Section Styles */
+.contact-info {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #fdfdfd; /* Contact background color */
+    padding: 50px 0;
+}
+contact-form label,
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  margin-right: 20px; /* Adjust the margin-bottom value to increase or decrease space */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333; /* Footer background color */
+    color: #fff; /* Footer text color */
+    text-align: center;
+    padding: 20px 0;
+}
